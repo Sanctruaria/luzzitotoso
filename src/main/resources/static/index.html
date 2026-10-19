@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101c24">
+    <meta name="description" content="Uma fábula interativa inspirada na lenda do lenhador e Hermes. Experiência fictícia, sem valor financeiro.">
+    <title>O Machado de Hermes — uma fábula interativa</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="#inicio" aria-label="O Machado de Hermes — início">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>MITOS <span class="brand-divider">/</span> MEMENTO</span>
+    </a>
+    <nav aria-label="Navegação principal">
+        <a href="#lenda">A lenda</a>
+        <a href="#reliquias">Relíquias</a>
+        <a href="#token">TOKEN</a>
+    </nav>
+    <a class="header-cta" href="#lenda">Entrar na fábula <span aria-hidden="true">↗</span></a>
+</header>
+
+<main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> UMA FÁBULA DA GRÉCIA ANTIGA</p>
+            <h1 id="hero-title">A honestidade<br>tem <em>seu peso.</em></h1>
+            <p class="hero-intro">Um machado caiu no rio. Um deus apareceu. E a resposta de um lenhador ensinou que caráter vale mais do que ouro.</p>
+            <a class="primary-link" href="#lenda">Descubra a lenda <span aria-hidden="true">↓</span></a>
+            <p class="hero-note"><span aria-hidden="true">✳</span> Uma experiência narrativa. Nenhum ativo financeiro real.</p>
+        </div>
+        <div class="hero-art" aria-label="Ilustração estilizada de um machado dourado sobre ondas">
+            <div class="art-sun"></div>
+            <div class="art-ring ring-one"></div>
+            <div class="art-ring ring-two"></div>
+            <div class="art-axe" aria-hidden="true">
+                <span class="axe-handle"></span>
+                <span class="axe-head"></span>
+            </div>
+            <div class="art-river river-one"></div>
+            <div class="art-river river-two"></div>
+            <span class="art-caption">O presente de Hermes · c. mito</span>
+        </div>
+        <span class="hero-index" aria-hidden="true">01 — 03</span>
+    </section>
+
+    <section class="story section-wrap" id="lenda" aria-labelledby="story-title">
+        <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> A LENDA</p>
+            <span class="section-number">I / III</span>
+        </div>
+        <div class="story-grid">
+            <div>
+                <h2 id="story-title">Às margens<br>do rio <em>profundo.</em></h2>
+                <p class="story-lead">Um lenhador trabalhava na floresta quando seu machado escapou de suas mãos e desapareceu nas águas.</p>
+            </div>
+            <div class="story-text">
+                <p>Desolado, ele se sentou à margem. Hermes, mensageiro dos deuses, ouviu seu lamento e mergulhou no rio. Ao voltar, trazia um machado de ouro.</p>
+                <p>“Este é o seu?”, perguntou. “Não”, respondeu o lenhador. Hermes retornou com um de prata. Mais uma vez, o homem disse a verdade: aquele também não era seu.</p>
+                <p>Por fim, o deus trouxe o machado de ferro do lenhador. “Este é o meu!”, exclamou ele. Comovido por sua honestidade, Hermes lhe ofereceu os três.</p>
+                <p class="story-moral"><span aria-hidden="true">✳</span> A virtude da história não está no prêmio, mas na verdade dita diante da tentação.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="relics-section" id="reliquias" aria-labelledby="relics-title">
+        <div class="section-wrap">
+            <div class="section-heading">
+                <p class="eyebrow"><span class="eyebrow-line"></span> O GABINETE DE HERMES</p>
+                <span class="section-number">II / III</span>
+            </div>
+            <div class="relics-intro">
+                <div>
+                    <h2 id="relics-title">Três relíquias.<br><em>Uma escolha.</em></h2>
+                    <p>Explore fichas de coleção imaginárias, inspiradas nos machados da fábula.</p>
+                </div>
+                <span class="fiction-stamp">COLECIONÁVEIS<br>FICTÍCIOS</span>
+            </div>
+            <div class="relic-grid" id="relic-grid">
+                <article class="relic-card relic-wood">
+                    <div class="relic-card-top"><span>01 / MADEIRA</span><span aria-hidden="true">✳</span></div>
+                    <div class="mini-axe mini-axe-wood" aria-hidden="true"><span></span><i></i></div>
+                    <h3>Wood_Axe_Hermes</h3>
+                    <p class="relic-type">A primeira escolha · ficha narrativa</p>
+                    <div class="relic-value"><span>VALOR FICTÍCIO</span><strong>US$ 5.000</strong></div>
+                    <span class="relic-badge">SEM VALOR MONETÁRIO</span>
+                </article>
+                <article class="relic-card relic-silver is-locked" id="silver-card">
+                    <div class="relic-card-top"><span>02 / PRATA</span><span aria-hidden="true">☾</span></div>
+                    <div class="mini-axe mini-axe-silver" aria-hidden="true"><span></span><i></i></div>
+                    <h3>Silver_Axe_Hermes</h3>
+                    <p class="relic-type">A oferta recusada · ficha narrativa</p>
+                    <div class="relic-value"><span>VALOR FICTÍCIO</span><strong>US$ 10.000</strong></div>
+                    <span class="relic-badge">SEM VALOR MONETÁRIO</span>
+                    <span class="lock-label">REVELE A FÁBULA</span>
+                </article>
+                <article class="relic-card relic-gold is-locked" id="gold-card">
+                    <div class="relic-card-top"><span>03 / OURO</span><span aria-hidden="true">☼</span></div>
+                    <div class="mini-axe mini-axe-gold" aria-hidden="true"><span></span><i></i></div>
+                    <h3>Gold_Axe_Hermes</h3>
+                    <p class="relic-type">A oferta recusada · ficha narrativa</p>
+                    <div class="relic-value"><span>VALOR FICTÍCIO</span><strong>US$ 15.000</strong></div>
+                    <span class="relic-badge">SEM VALOR MONETÁRIO</span>
+                    <span class="lock-label">REVELE A FÁBULA</span>
+                </article>
+            </div>
+            <div class="claim-panel">
+                <div class="claim-symbol" aria-hidden="true">✳</div>
+                <div class="claim-copy">
+                    <h3>Ouça a mensagem do deus</h3>
+                    <p>Inicie uma contagem demonstrativa de 48 horas e revele as três fichas desta experiência. O contador fica salvo somente neste navegador.</p>
+                </div>
+                <div class="claim-action">
+                    <button class="claim-button" id="claim-button" type="button">Revelar relíquias <span aria-hidden="true">↗</span></button>
+                    <p id="claim-status" class="claim-status" aria-live="polite">Sem carteira, cadastro ou envio de comprovantes.</p>
+                </div>
+            </div>
+            <div class="timer-panel" id="timer-panel" hidden>
+                <div><span class="timer-label">JANELA DA FÁBULA</span><p id="timer-message">Tempo restante para explorar esta experiência.</p></div>
+                <div class="timer" aria-label="Contagem regressiva de demonstração">
+                    <span><strong id="timer-hours">48</strong><small>HORAS</small></span><i>:</i>
+                    <span><strong id="timer-minutes">00</strong><small>MINUTOS</small></span><i>:</i>
+                    <span><strong id="timer-seconds">00</strong><small>SEGUNDOS</small></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="token-section section-wrap" id="token" aria-labelledby="token-title">
+        <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> NOTA DE TRANSPARÊNCIA</p>
+            <span class="section-number">III / III</span>
+        </div>
+        <div class="token-grid">
+            <div>
+                <h2 id="token-title">Sobre o<br><em>“TOKEN”.</em></h2>
+                <p class="token-lead">Um nome e uma história — não uma criptomoeda.</p>
+            </div>
+            <div class="token-disclosure">
+                <p class="disclosure-label"><span aria-hidden="true">ⓘ</span> LEIA ANTES DE INTERAGIR</p>
+                <p>Wood_Axe_Hermes, Silver_Axe_Hermes e Gold_Axe_Hermes são nomes de fichas fictícias desta página. Os valores em dólares são elementos cenográficos da história, não cotações nem promessa de pagamento.</p>
+                <p>Não existe Bitcoin, blockchain, contrato inteligente, carteira, compra, venda, transferência ou resgate financeiro por trás desta experiência. As fichas não podem ser enviadas ou devolvidas ao site porque não existem fora desta página.</p>
+                <p>O contador de 48 horas é apenas uma animação local neste navegador. Quando termina, a experiência se encerra; nenhum preço ou saldo real é afetado. Nenhum comprovante de venda é solicitado ou recebido.</p>
+                <span class="disclosure-signoff">A FÁBULA É ANTIGA. AS FICHAS SÃO IMAGINÁRIAS.</span>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✳</span><span>MITOS <span class="brand-divider">/</span> MEMENTO</span></a>
+    <p>Uma experiência educativa e ficcional, sem valor financeiro.</p>
+    <a href="#inicio">Voltar ao início ↑</a>
+    <form class="timer-reset-form" id="timer-reset-form">
+        <label for="reset-password">Reiniciar contador demonstrativo</label>
+        <div class="timer-reset-controls">
+            <input id="reset-password" name="password" type="password" autocomplete="off" placeholder="Senha" required>
+            <button type="submit">Reiniciar para 48 horas</button>
+        </div>
+        <p class="reset-status" id="reset-status" aria-live="polite">A senha é apenas uma conveniência local, não uma proteção segura.</p>
+    </form>
+</footer>
+</body>
+</html>
